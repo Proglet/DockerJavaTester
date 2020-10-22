@@ -1,0 +1,4 @@
+#!/bin/sh
+cp -R /tests/* .
+cp -R /usercode/* .
+gradle $1
