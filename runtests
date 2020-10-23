@@ -2,3 +2,4 @@
 cp -R /tests/* .
 cp -R /usercode/* .
 gradle $1
+cp `find . | grep xml` /out
