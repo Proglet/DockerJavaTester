@@ -1,5 +1,5 @@
 #!/bin/sh
 cp -R /tests/* .
 cp -R /usercode/* .
-gradle $1
+gradle ${TEST}
 cp `find . | grep xml` /out
